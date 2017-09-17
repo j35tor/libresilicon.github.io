@@ -226,6 +226,14 @@ header .header-content .header-content-inner p {
   padding: 50px;
   background: darkgrey;
 }
+.lang-lbl-icon {
+  width: 80px;
+  margin-left: 20px;
+  color: rgba(0, 0, 255, 0.5);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .icon-lsa {
   background-image: url("../img/LSA-lightblue.png");
   background-size: cover;

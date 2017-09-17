@@ -16,6 +16,7 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/bootstrap-languages/languages.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
@@ -40,16 +41,49 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-nav">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-		<a class="navbar-brand page-scroll" href="#page-top">
-			<img width="30px" style="margin-top: 0px; float: left;" src="img/LSA-fullwhite.png" /><span style="margin-top: 4px; margin-left: 4px; float: right;">LSA</span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lang-nav">
+		    <span class="sr-only">Toggle navigation</span> Language <span class="lang-sm"></span>
+                </button>
+		<a class="navbar-brand page-scroll" href="#page-top" style="margin-right: 40px;">
+			<img width="30px" src="img/LSA-fullwhite.png" style="float: left;" /><span style="margin-top: 4px; float: right;">LSA</span>
 		</a>
+
+            <div class="collapse navbar-collapse" id="lang-nav" style="float: right;">
+                <ul class="nav navbar-nav">
+                    <li>
+		<a href="index.html">
+			<span class="lang-lg lang-lbl lang-lbl-icon" lang="zh"></span>
+		</a>
+                    </li>
+                    <li>
+		<a href="index.html">
+			<span class="lang-lg lang-lbl lang-lbl-icon" lang="ja"></span>
+		</a>
+                    </li>
+                    <li>
+		<a href="index.html">
+			<span class="lang-lg lang-lbl lang-lbl-icon" lang="ko"></span>
+		</a>
+                    </li>
+                    <li>
+		<a href="index.html">
+			<span class="lang-lg lang-lbl lang-lbl-icon" lang="en"></span>
+		</a>
+                    </li>
+                    <li>
+		<a href="index.html">
+			<span class="lang-lg lang-lbl lang-lbl-icon" lang="de"></span>
+		</a>
+                    </li>
+		</ul>
+            </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="menu-nav">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -164,10 +198,7 @@
 		    <div class="col-lg-4 col-md-4 text-center">
                         	<i class="fa fa-4x fa-envelope text-primary"></i>
 			<p>
-				<a href="mailto:david.lanzendoerfer@lanceville.cn"><br />david.lanzendoerfer@lanceville.cn</a><br />David Lanzendörfer
-			</p>
-			<p>
-				<a href="mailto:westerwick@pconas.de"><br />westerwick@pconas.de</a><br />Andreas Westerwick
+				<a href="mailto:contact@LibreSilicon.com"><br />contact@LibreSilicon.com</a><br />
 			</p>
 		    </div>
 		    <div class="col-lg-4 col-md-4 text-center">
@@ -178,9 +209,10 @@
 			</a>
 		    </div>
 		    <div class="col-lg-4 col-md-4 text-center">
-                        	<i class="fa fa-4x fa-phone text-primary"></i>
+                        	<i class="fa fa-4x fa-hashtag text-primary"></i>
 				<p>
-				<br />
+				<br />IRC
+				</p>
 		    </div>
             </div>
         </div>
