@@ -28,6 +28,13 @@
         }
     })
 
+    $('.add-docs').hide();
+    $('#addDocsBtn').bind('click', function(event) {
+	    $('.add-docs').each(function(index) {
+		    $(this).fadeIn((index + 1) * 1000);
+	    });
+    });
+
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {

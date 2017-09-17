@@ -248,7 +248,7 @@ header .header-content .header-content-inner p {
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
   }
 }
 .service-box p {
@@ -312,7 +312,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: blue;
+  color: #5555FF;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
