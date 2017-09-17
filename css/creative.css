@@ -166,11 +166,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background: blue;
-  background: -webkit-linear-gradient(blue, #5555FF);
-  background: -o-linear-gradient(blue, #5555FF);
-  background: -moz-linear-gradient(blue, #5555FF);
-  background: linear-gradient(blue, #5555FF);
+  background-image: url("../img/gradient1.jpg");
+  background-size: 100% 100%;
   text-align: center;
   color: white;
 }
