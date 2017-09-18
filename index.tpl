@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{lang}}">
 
 <head>
 
@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>LSA - Libre Silicon Alliance</title>
+    <title>{{title}}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,10 +42,10 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-nav">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span> {{menu}} <i class="fa fa-bars"></i>
                 </button>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lang-nav">
-		    <span class="sr-only">Toggle navigation</span> Language <span class="lang-sm"></span>
+		    <span class="sr-only">Toggle navigation</span> {{language}} <span class="lang-sm"></span>
                 </button>
 		<a class="navbar-brand page-scroll" href="#page-top" style="margin-right: 40px;">
 			<img width="30px" src="img/LSA-fullwhite.png" style="float: left;" /><span style="margin-top: 4px; float: right;">LSA</span>
@@ -86,16 +86,16 @@
             <div class="collapse navbar-collapse" id="menu-nav">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">{{about}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#members">Members</a>
+                        <a class="page-scroll" href="#members">{{members}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#whitepaper">Whitepaper</a>
+                        <a class="page-scroll" href="#whitepaper">{{whitepaper}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">{{contact}}</a>
                     </li>
                 </ul>
             </div>
@@ -108,10 +108,10 @@
         <div class="header-content">
             <div class="header-content-inner">
 		<img width="150px" src="img/LSA-white.png" />
-                <h1 id="homeHeading">Libre Silicon Alliance</h1>
-                <h2 id="homeSubtitle">Blockchain based collaborative chip exchange</h2>
-                <p>The initiative has the goal to establish a full development flow for new semiconductor products using only free and open source tools, while at the same time answering the question about IP protection and payment of developers making use of a blockchain solution automatically making sure every engineer is payed for the value she or he generates.</p>
-                <a href="#whitepaper" class="btn btn-primary btn-xl page-scroll">READ OUR WHITEPAPER</a>
+                <h1 id="homeHeading">{{homeHeading}}</h1>
+                <h2 id="homeSubtitle">{{homeSubtitle}}</h2>
+                <p>{{homeContent}}</p>
+                <a href="#whitepaper" class="btn btn-primary btn-xl page-scroll">{{homeButton}}</a>
             </div>
         </div>
     </header>
@@ -122,16 +122,15 @@
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x icon-lsa text-primary sr-icons"></i>
-                        <h3>Why and about LSA</h3>
-			<p class="text-muted">Today there is no inexpensive and easy way for SMEs, startups and hobbyists to develop their own ASICs and bringing them to the market. All the silicon manufacturing nowadays is in the hands of a few big companies which play their monopoly of lone capability of manufacturing microchips by charging around 20&apos;000 USD per prototype and letting an engineer wait for months until he can test his design physically. Additionally the EDA tools for designing chips are unaffordable for most start ups.
-We intend to change that!</p>
+                        <h3>{{aboutTitle}}</h3>
+			<p class="text-muted">{{aboutContent}}</p>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
-                        <h3>A collaboration platform</h3>
-                        <p class="text-muted">By using a blockchain solution in order to track the added value from the work of every contributor, without any human intervention required, it is ensured that everyone is being payed a fair price for the work and time she or he has invested into developing an ASIC or IP block.</p>
+                        <h3>{{collaborationTitle}}</h3>
+                        <p class="text-muted">{{collaborationContent}}</p>
                     </div>
                 </div>
             </div>
@@ -140,7 +139,7 @@ We intend to change that!</p>
 
     <section id="members">
         <div class="container text-center">
-                <h2>LSA Members</h2>
+                <h2>{{lsaMembers}}</h2>
 		<div class="row">
 		<div class="col-lg-3 col-md-3 text-center"></div>
                 <div class="col-lg-3 col-md-3 text-center">
@@ -160,7 +159,7 @@ We intend to change that!</p>
 		</div>
         </div>
         <div class="container text-center">
-                <h2>LSA Backers</h2>
+                <h2>{{lsaBackers}}</h2>
 		<div class="col-lg-2 col-md-2 text-center"></div>
                 <div class="col-lg-3 col-md-3 text-center">
 			<a href="http://opencircuitdesign.com"><img class="logo" src="img/opencircuitdesign.png" />Open Circuit Design</a>
@@ -175,10 +174,10 @@ We intend to change that!</p>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-	 	    <h2 class="section-heading">Read our whitepaper here</h2>
+	 	    <h2 class="section-heading">{{readWhitepaperHere}}</h2>
 		    <a href="docs/whitepaper.pdf">
 		    <img width="180px" style="margin-top: 20px;" src="img/LSA-whitepaper.png">
-		    <p><u>VIEW PDF</u></p>
+		    <p><u>{{viewPdf}}</u></p>
 		    </a>
                 </div>
             </div>
@@ -186,7 +185,7 @@ We intend to change that!</p>
 	    <div class="row">
 		    <div class="col-lg-4 col-md-2 text-center add-docs-btn" id="addDocsBtn">
                         <a class="btn btn-primary btn-xl">
-				Additional documents &nbsp;<i class="fa fa-angle-double-right text-primary sr-icons" style="color: blue;"></i>
+				{{additionalDocs}} &nbsp;<i class="fa fa-angle-double-right text-primary sr-icons" style="color: blue;"></i>
 			</a>
 		    </div>
 		    <div class="col-lg-2 col-md-2 text-center add-docs">
@@ -203,7 +202,7 @@ We intend to change that!</p>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact us</h2>
+                    <h2 class="section-heading">{{contactUs}}</h2>
                 </div>
             </div>
             <div class="row" style="margin-top: 30px;">
