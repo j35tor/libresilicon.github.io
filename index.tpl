@@ -47,7 +47,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lang-nav">
 		    <span class="sr-only">Toggle navigation</span> {{language}} <span class="lang-sm"></span>
                 </button>
-		<a class="navbar-brand page-scroll" href="#page-top" style="margin-right: 40px;">
+		<a class="navbar-brand page-scroll" href="#page-top" style="">
 			<img width="30px" src="img/LSA-fullwhite.png" style="float: left;" /><span style="margin-top: 4px; float: right;">LSA</span>
 		</a>
 
@@ -154,18 +154,19 @@
 		<div class="col-lg-3 col-md-3 text-center"></div>
                 <div class="col-lg-6 col-md-6 text-center">
 			<a href="http://bloq.com"><img class="logo" style="width: 150px;" src="img/bloq.png" /></a>
-			<a href="https://gatecoin.com"><img class="logo" style="margin: 0px 0px 0px 100px;" src="img/gatecoin.png" /></a>
+			<a href="https://gatecoin.com"><img class="logo" style="margin: 0px 0px 0px 50px;" src="img/gatecoin.png" /></a>
 		</div>
 		</div>
         </div>
+<br/>
         <div class="container text-center">
                 <h2>{{lsaBackers}}</h2>
 		<div class="col-lg-2 col-md-2 text-center"></div>
                 <div class="col-lg-3 col-md-3 text-center">
-			<a href="http://opencircuitdesign.com"><img class="logo" src="img/opencircuitdesign.png" />Open Circuit Design</a>
+			<a href="http://opencircuitdesign.com"><img class="logo" src="img/opencircuitdesign.png" /><br />Open Circuit Design</a>
                 </div>
 		<div class="col-lg-3 col-md-3 text-center"><br />
-			<a href="http://www.clifford.at/yosys"><img class="logo" style="width: 400px;" src="img/yosys.png" /></a>
+			<a href="http://www.clifford.at/yosys"><img class="logo" style="width: 300px;" src="img/yosys.png" /></a>
                 </div>
         </div>
     </section>
