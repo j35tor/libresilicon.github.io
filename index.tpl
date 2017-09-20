@@ -176,7 +176,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
 	 	    <h2 class="section-heading">{{readWhitepaperHere}}</h2>
-		    <a href="docs/whitepaper.pdf">
+		    <a href="soon.html">
 		    <img width="180px" style="margin-top: 20px;" src="img/LSA-whitepaper.png">
 		    <p><u>{{viewPdf}}</u></p>
 		    </a>
@@ -190,7 +190,7 @@
 			</a>
 		    </div>
 		    <div class="col-lg-2 col-md-2 text-center add-docs">
-			<a href="docs/qtflow-func-specification.pdf">
+			<a href="soon.html">
                         	<i class="fa fa-4x fa-file-pdf-o text-primary"></i>
 				<p>QtFlow functional specification draft</p>
 			</a>
