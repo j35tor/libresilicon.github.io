@@ -42,18 +42,18 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-nav">
+                <button type="button" class="navbar-toggle collapsed" id="menu-toggle" data-toggle="collapse" data-target="#menu-nav">
                     <span class="sr-only">Toggle navigation</span> {{menu}} <i class="fa fa-bars"></i>
                 </button>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lang-nav">
+                <button type="button" class="navbar-toggle collapsed" id="lang-toggle" data-toggle="collapse" data-target="#lang-nav">
 		    <span class="sr-only">Toggle navigation</span> {{language}} <span class="lang-sm"></span>
                 </button>
 		<a class="navbar-brand page-scroll" href="#page-top" style="">
 			<img width="30px" src="img/LSA-fullwhite.svg" style="float: left;" /><span style="margin-top: 4px; float: right;">LSA</span>
 		</a>
 
-            <div class="collapse navbar-collapse" id="lang-nav" style="float: right;">
-                <ul class="nav navbar-nav">
+            <div class="collapse navbar-collapse" id="lang-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
 		<a href="index_zh.html">
 			<span class="lang-lg lang-lbl lang-lbl-icon" lang="zh"></span>
@@ -81,7 +81,6 @@
                     </li>
 		</ul>
             </div>
-            </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="menu-nav">
@@ -106,6 +105,7 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
+	</div>
     </nav>
 
     <header>

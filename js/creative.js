@@ -16,9 +16,12 @@
         offset: 51
     });
 
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
+    $('#menu-nav ul li a').click(function() {
+        $('#menu-toggle:visible').click();
+    });
+
+    $('#lang-nav ul li a').click(function() {
+        $('#lang-toggle:visible').click();
     });
 
     // Offset for Main Navigation
@@ -27,13 +30,6 @@
             top: 100
         }
     })
-
-    $('.add-docs').hide();
-    $('#addDocsBtn').bind('click', function(event) {
-	    $('.add-docs').each(function(index) {
-		    $(this).fadeIn((index + 1) * 1000);
-	    });
-    });
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
