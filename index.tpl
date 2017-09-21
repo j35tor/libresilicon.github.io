@@ -49,7 +49,7 @@
 		    <span class="sr-only">Toggle navigation</span> {{language}} <span class="lang-sm"></span>
                 </button>
 		<a class="navbar-brand page-scroll" href="#page-top" style="">
-			<img width="30px" src="img/LSA-fullwhite.png" style="float: left;" /><span style="margin-top: 4px; float: right;">LSA</span>
+			<img width="30px" src="img/LSA-fullwhite.svg" style="float: left;" /><span style="margin-top: 4px; float: right;">LSA</span>
 		</a>
 
             <div class="collapse navbar-collapse" id="lang-nav" style="float: right;">
@@ -111,7 +111,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-		<img width="150px" src="img/LSA-white.png" />
+		<img width="150px" style="margin-bottom: 20px;" src="img/LSA-white.svg" />
                 <h1 id="homeHeading">{{homeHeading}}</h1>
                 <h2 id="homeSubtitle">{{homeSubtitle}}</h2>
                 <p>{{homeContent}}</p>
@@ -204,14 +204,14 @@
 		</div>
                 <div class="col-lg-2 text-center">
 		    <a href="soon.html">
-		    <img width="180px" style="margin-top: 20px;" src="img/LSA-whitepaper.png">
+		    <img width="180px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
 		    <p><u>{{viewPdf}}</u></p>
 		    </a>
 		</div>
                 <div class="col-lg-2 col-lg-offset-1 text-center">
 <br />
 		    <a href="soon.html">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper.png">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
 		    <p><u>QtFlow functional specification draft</u></p>
 		    </a>
  		</div>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="0.91">
+	<channel>
+ 		<title>Libre Silicon Alliance</title>
+ 		<link>http://libresilicon.com/#news</link>
+ 		<description>ICO news</description>
+ 		<language>en-us</language>
+
+ 		<image>
+ 			<title>Libre Silicon Alliance</title>
+ 			<url>http://libresilicon.com/img/LSA.png</url>
+			<link>http://libresilicon.com/#news</link>
+ 			<width>90</width>
+ 			<height>90</height>
+ 		</image>
+
+		<item>
+			<title>Pre-ICO update</title>
+			<link>http://libresilicon.com/#news</link>
+			<description>
+09/21/2017: Pre-ICO will take place this month!
+			</description>
+		</item>
+		
+	</channel>
+</rss>

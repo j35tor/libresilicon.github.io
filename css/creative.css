@@ -240,7 +240,7 @@ header .header-content .header-content-inner p {
   text-transform: uppercase;
 }
 .icon-lsa {
-  background-image: url("../img/LSA-lightblue.png");
+  background-image: url("../img/LSA-lightblue.svg");
   background-size: cover;
   background-position: center center;
   height: 100px;
