@@ -3,6 +3,7 @@
 , "menu": "Menu"
 , "language": "Language"
 , "about": "About"
+, "news": "News"
 , "members": "Members"
 , "whitepaper": "Whitepaper"
 , "contact": "Contact"
@@ -14,6 +15,12 @@
 , "aboutContent": "Today there is no inexpensive and easy way for SMEs, startups and hobbyists to develop their own ASICs and bringing them to the market. All the silicon manufacturing nowadays is in the hands of a few big companies which play their monopoly of lone capability of manufacturing microchips by charging around 20'000 USD per prototype and letting an engineer wait for months until he can test his design physically. Additionally the EDA tools for designing chips are unaffordable for most start ups.\nWe intend to change that!"
 , "collaborationTitle": "A collaboration platform"
 , "collaborationContent": "By using a blockchain solution in order to track the added value from the work of every contributor, without any human intervention required, it is ensured that everyone is being payed a fair price for the work and time she or he has invested into developing an ASIC or IP block."
+, "newsTitle": "News"
+, "newsItems":
+  [ { "title": "Pre-ICO update"
+    , "description": "09/21/2017: Pre-ICO will take place this month!"
+    }
+  ]
 , "lsaMembers": "LSA Members"
 , "lsaBackers": "LSA Backers"
 , "readWhitepaperHere": "Read our whitepaper here"

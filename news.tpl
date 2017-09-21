@@ -14,13 +14,14 @@
  			<height>90</height>
  		</image>
 
-		<item>
-			<title>Pre-ICO update</title>
+		{% for item in newsItems %}<item>
+			<title>{{ item.title }}</title>
 			<link>https://foshardware.github.io/#news</link>
 			<description>
-09/21/2017: Pre-ICO will take place this month!
+{{ item.description }}
 			</description>
 		</item>
-		
+		{% endfor %}
+
 	</channel>
 </rss>

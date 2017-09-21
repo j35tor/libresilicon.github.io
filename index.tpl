@@ -11,6 +11,7 @@
 
     <title>{{title}}</title>
 
+    <link href="https://foshardware.github.io/news_{{lang}}.rss" rel="alternate" type="application/rss+xml" title="Libre Silicon Alliance">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -89,6 +90,9 @@
                         <a class="page-scroll" href="#about">{{about}}</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#news">{{news}}</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#members">{{members}}</a>
                     </li>
                     <li>
@@ -135,6 +139,23 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="news">
+        <div class="container text-center">
+            <h2>{{newsTitle}} <a href="https://foshardware.github.io/news_{{lang}}.rss" rel="alternate" type="application/rss+xml"><i class="fa fa-rss text-primary sr-icons"></i></a>
+            </h2>
+            {% for item in newsItems %}
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-lg-12 col-md-12 text-center">
+	 	    <h3 class="section-heading">{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
     </section>
 
     <section id="members">
