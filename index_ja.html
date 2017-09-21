@@ -52,8 +52,8 @@
 			<img width="30px" src="img/LSA-fullwhite.svg" style="float: left;" /><span style="margin-top: 4px; float: right;">LSA</span>
 		</a>
 
-            <div class="collapse navbar-collapse" id="lang-nav">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="collapse navbar-collapse" id="lang-nav" style="float: right;">
+                <ul class="nav navbar-nav">
                     <li>
 		<a href="index_zh.html">
 			<span class="lang-lg lang-lbl lang-lbl-icon" lang="zh"></span>
@@ -81,6 +81,7 @@
                     </li>
 		</ul>
             </div>
+	</div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="menu-nav">
@@ -105,7 +106,6 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-	</div>
     </nav>
 
     <header>
