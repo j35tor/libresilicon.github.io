@@ -11,7 +11,7 @@
 
     <title>{{title}}</title>
 
-    <link href="https://foshardware.github.io/news_{{lang}}.rss" rel="alternate" type="application/rss+xml" title="Libre Silicon Alliance">
+    <link href="http://libresilicon.com/news_{{lang}}.rss" rel="alternate" type="application/rss+xml" title="Libre Silicon Alliance">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -143,7 +143,7 @@
 
     <section id="news">
         <div class="container text-center">
-            <h2>{{newsTitle}} <a href="https://foshardware.github.io/news_{{lang}}.rss" rel="alternate" type="application/rss+xml"><i class="fa fa-rss text-primary sr-icons"></i></a>
+            <h2>{{newsTitle}} <a href="http://libresilicon.com/news_{{lang}}.rss" rel="alternate" type="application/rss+xml"><i class="fa fa-rss text-primary sr-icons"></i></a>
             </h2>
             {% for item in newsItems %}
             <div class="row" style="margin-top: 50px;">
