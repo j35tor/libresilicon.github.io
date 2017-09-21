@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="0.91">
+	<channel>
+ 		<title>Libre Silicon Alliance</title>
+ 		<link>https://foshardware.github.io/#news</link>
+ 		<description>ICO news</description>
+ 		<language>en-us</language>
+
+ 		<image>
+ 			<title>LSA</title>
+ 			<url>https://foshardware.github.io/img/LSA.png</url>
+ 			<link>https://foshardware.github.io</link>
+ 			<width>90</width>
+ 			<height>90</height>
+ 		</image>
+
+		<item>
+			<title>Pre-ICO Update</title>
+			<link>https://foshardware.github.io/#news</link>
+			<description>
+09/21/2017
+Pre-ICO will take place end of this month!
+ 			</description>
+		</item>
+
+	</channel>
+</rss>
