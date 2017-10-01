@@ -17,8 +17,11 @@
 , "collaborationContent": "By using a blockchain solution in order to track the added value from the work of every contributor, without any human intervention required, it is ensured that everyone is being payed a fair price for the work and time she or he has invested into developing an ASIC or IP block."
 , "newsTitle": "News"
 , "newsItems":
-  [ { "title": "Pre-ICO update"
-    , "description": "09/21/2017\nPre-ICO will take place this month!"
+  [ { "title": "Pre-ICO postponed two weeks"
+    , "description": "01/01/2017: We will have to postpone the pre-ICO for two weeks until we meet some more prerequisites. We will use this time to perfect our whitepaper and homepage."
+    }
+  , { "title": "Pre-ICO update"
+    , "description": "09/21/2017: Pre-ICO will take place this month!"
     }
   ]
 , "lsaMembers": "LSA Members"
