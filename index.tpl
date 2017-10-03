@@ -289,6 +289,8 @@
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
+    <script src="https://murmur.lanceville.hk/meter.js"></script>
+
 </body>
 
 </html>
