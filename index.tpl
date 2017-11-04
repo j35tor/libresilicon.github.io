@@ -175,7 +175,7 @@
 		<div class="col-lg-3 col-md-3 text-center"></div>
                 <div class="col-lg-6 col-md-6 text-center">
 			<a href="http://bloq.com"><img class="logo" style="width: 150px;" src="img/bloq.png" /></a>
-			<a href="https://gatecoin.com"><img class="logo" style="margin: 0px 0px 0px 50px;" src="img/gatecoin.png" /></a>
+			<!-- <a href="https://gatecoin.com"><img class="logo" style="margin: 0px 0px 0px 50px;" src="img/gatecoin.png" /></a> -->
 		</div>
 		</div>
         </div>
