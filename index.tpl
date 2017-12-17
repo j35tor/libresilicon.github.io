@@ -195,32 +195,29 @@
     <section id="whitepaper">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-xs-12 text-center">
 	 	    <h2 class="section-heading">{{readWhitepaperHere}}</h2>
                 </div>
             </div>
 	    <div class="row">
-                <div class="col-lg-5 text-center">
-		</div>
-                <div class="col-lg-2 col-lg-offset-1 text-center">
-<br />
-		    <a href="https://github.com/leviathanch/libresiliconprocess/compact.pdf" target="_blank">
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/leviathanch/libresiliconprocess/blob/master/compact.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
 		    <p><u>Overview</u></p>
 		    </a>
-                <div class="col-lg-2 col-lg-offset-1 text-center">
-<br />
-		    <a href="https://github.com/leviathanch/libresiliconprocess/documentation.pdf" target="_blank">
+                </div>
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/leviathanch/libresiliconprocess/blob/master/documentation.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
 		    <p><u>Documentation</u></p>
 		    </a>
  		</div>
-                <div class="col-lg-2 col-lg-offset-1 text-center">
-<br />
-		    <a href="https://github.com/leviathanch/libresiliconlightning/talk.pdf" target="_blank">
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/leviathanch/libresiliconlightning/blob/master/talk.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
 		    <p><u>Lightning talk</u></p>
 		    </a>
+                </div>
 	    </div>
         </div>
     </section>
