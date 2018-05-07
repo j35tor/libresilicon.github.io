@@ -155,6 +155,13 @@
                         <p class="text-muted">{{reproducibilityContent}}</p>
                     </div>
                 </div>
+		<div class="col-lg-12 col-md-12 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
+                        <h3>{{securityTitle}}</h3>
+                        <p class="text-muted">{{securityContent}}</p>
+                    </div>
+                </div>
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gears text-primary sr-icons"></i>

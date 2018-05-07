@@ -14,6 +14,8 @@
 , "homeButton": "Get more info"
 , "startButton": "Getting started"
 , "aboutTitle": "Opening the market"
+, "securityTitle": "Auditable chips solving security concerns"
+, "securityContent": "Since at least the introduction of the Intel management engine the concerns about the trustworthyness of our CPUs is raising. By providing a fully open process and technology node which allows to publish the entire layout on GitHub, the doors for entirely free CPU platforms are being pushed open which allow for a full security audit down to the transistor level. Which means no more possible hidden hardware backdoors for intelligence agencies."
 , "processTitle": "A free process"
 , "processContent": "In order to democratize the semiconductor market and stop being at the mercy of big proprietary semiconductor manufacturers a standardized free manufacturing process needs to be introduced in order to easily exchange designs and silicon verify them anywhere on the globe. That's what we're doing."
 , "aboutContent": "Today there is no inexpensive and easy way for SMEs, startups and hobbyists to develop their own ASICs and bringing them to the market. All the silicon manufacturing nowadays is in the hands of a few big companies which play their monopoly of lone capability of manufacturing microchips by charging around 20'000 USD per prototype and letting an engineer wait for months until he can test his design physically. Additionally the EDA tools for designing chips are unaffordable for most start ups.\nWe intend to change that!"
