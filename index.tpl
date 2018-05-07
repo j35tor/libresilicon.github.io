@@ -205,7 +205,7 @@
                 </div>
 		<div class="row">
 		<div class="col-lg-3 col-md-3 text-center"></div>
-                <div class="col-lg-6 col-md-6 text-center">
+                <div class="col-lg-6 col-md-6 text-center framed_container">
 			<a href="http://www.nff.ust.hk/en/home.html" target="_blank"><img class="logo" src="img/HKUST_Logo.png" /><img class="logo" src="img/NFF.jpg" /></a>
 		</div>
 		</div>
