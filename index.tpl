@@ -151,15 +151,15 @@
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
-                        <h3>{{collaborationTitle}}</h3>
-                        <p class="text-muted">{{collaborationContent}}</p>
+                        <h3>{{reproducibilityTitle}}</h3>
+                        <p class="text-muted">{{reproducibilityContent}}</p>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
-                        <h3>{{reproducibilityTitle}}</h3>
-                        <p class="text-muted">{{reproducibilityContent}}</p>
+                        <h3>{{collaborationTitle}}</h3>
+                        <p class="text-muted">{{collaborationContent}}</p>
                     </div>
                 </div>
             </div>
