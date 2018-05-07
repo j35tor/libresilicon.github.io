@@ -118,6 +118,11 @@
                 <h1 id="homeHeading">{{homeHeading}}</h1>
                 <h2 id="homeSubtitle">{{homeSubtitle}}</h2>
                 <p>{{homeContent}}</p>
+		<br/>
+		<br/>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{aboutButton}}</a>
+		<br/>
+		<br/>
                 <a href="#whitepaper" class="btn btn-primary btn-xl page-scroll">{{homeButton}}</a>
 		<br/>
 		<br/>
