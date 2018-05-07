@@ -27,6 +27,9 @@
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+    <!-- CSS customization -->
+    <link href="css/custom.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -116,6 +119,9 @@
                 <h2 id="homeSubtitle">{{homeSubtitle}}</h2>
                 <p>{{homeContent}}</p>
                 <a href="#whitepaper" class="btn btn-primary btn-xl page-scroll">{{homeButton}}</a>
+		<br/>
+		<br/>
+                <a href="#getstarted" class="btn btn-primary btn-xl page-scroll">{{startButton}}</a>
             </div>
         </div>
     </header>
@@ -192,6 +198,43 @@
         </div>
     </section>
 
+    <section id="getstarted">
+	<div class="container framed_container">
+		<h2>Getting started</h2>
+		<p>For the ones eager to get started with the whole ecosystem below there can be found all the information required to do so.</p>
+
+		<h3>The EDA: QtFlow</h3>
+		<p>
+			The GIT repository for the EDA can be found under the following URL:<br/>
+			<a href="{{gitUrlQtFlow}}" target="_blank">{{gitUrlQtFlow}}</a>
+		</p>
+		<p>
+			The wiki page for the EDA can be found under the following URL:<br/>
+			<a href="{{wikiUrlQtFlow}}" target="_blank">{{wikiUrlQtFlow}}</a>
+		</p>
+		<p>
+			Prebuilt RPMs for the EDA can be found under the following URL:<br/>
+			<a href="{{rpmsUrlQtFlow}}" target="_blank">{{rpmsUrlQtFlow}}</a></br>
+		</p>
+		<p>
+			Prebuilt Debian packages for the EDA can be found under the following URL:<br/>
+			<a href="{{debsUrlQtFlow}}" target="_blank">{{debsUrlQtFlow}}</a></br>
+		</p>
+
+		<h3>The LibreSilicon technologies</h3>
+		<p>
+			The GIT repository for the standard cells is being maintained by Hagen under (CMOS only and only 1um yet!):<br/>
+			<a href="{{repoUrlStandardCells}}" target="_blank">{{repoUrlStandardCells}}</a></br>
+		</p>
+
+		<h3>The LibreSilicon process</h3>
+		<p>
+			The GIT repository for the process spec is being maintained under:<br/>
+			<a href="{{repoUrlProcessSpec}}" target="_blank">{{repoUrlProcessSpec}}</a></br>
+		</p>
+	</div>
+    </section>
+
     <section id="whitepaper">
         <div class="container">
             <div class="row">
@@ -202,25 +245,27 @@
 	    <div class="row">
                 <div class="col-xs-4 text-center">
 		    <a href="https://github.com/leviathanch/libresiliconprocess/blob/master/compact.pdf" target="_blank">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-doclink.svg">
 		    <p><u>Overview</u></p>
 		    </a>
                 </div>
                 <div class="col-xs-4 text-center">
 		    <a href="https://github.com/leviathanch/libresiliconprocess/blob/master/documentation.pdf" target="_blank">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-doclink.svg">
 		    <p><u>Documentation</u></p>
 		    </a>
  		</div>
                 <div class="col-xs-4 text-center">
 		    <a href="https://github.com/leviathanch/libresiliconlightning/blob/master/talk.pdf" target="_blank">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-doclink.svg">
 		    <p><u>Lightning talk</u></p>
 		    </a>
                 </div>
 	    </div>
         </div>
     </section>
+
+<!--<img width="120px" style="margin-top: 20px;" src="img/LSA-whitepaper_{{lang}}.svg">-->
 
     <section id="contact">
         <div class="container">
