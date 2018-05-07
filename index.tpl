@@ -144,8 +144,22 @@
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
+                        <h3>{{processTitle}}</h3>
+                        <p class="text-muted">{{processContent}}</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
                         <h3>{{collaborationTitle}}</h3>
                         <p class="text-muted">{{collaborationContent}}</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
+                        <h3>{{reproducibilityTitle}}</h3>
+                        <p class="text-muted">{{reproducibilityContent}}</p>
                     </div>
                 </div>
             </div>
@@ -206,7 +220,7 @@
     <section id="getstarted">
 	<div class="container framed_container">
 		<h2>Getting started</h2>
-		<p>For the ones eager to get started with the whole ecosystem below there can be found all the information required to do so.</p>
+		<p>For the ones eager to get started with the whole ecosystem, below there can be found all the information required to do so.</p>
 
 		<h3>The EDA: QtFlow</h3>
 		<p>
