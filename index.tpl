@@ -98,9 +98,9 @@
                     <li>
                         <a class="page-scroll" href="#members">{{members}}</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="page-scroll" href="#whitepaper">{{whitepaper}}</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a class="page-scroll" href="#contact">{{contact}}</a>
                     </li>
@@ -265,26 +265,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-	 	    <h2 class="section-heading">{{readWhitepaperHere}}</h2>
+	 	    <h2 class="section-heading">{{additionalDocs}}</h2>
                 </div>
             </div>
-	    <div class="row">
-                <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconprocess/blob/master/compact.pdf" target="_blank">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-doclink.svg">
-		    <p><u>Overview</u></p>
-		    </a>
-                </div>
+	    <div class="row center">
                 <div class="col-xs-4 text-center">
 		    <a href="https://github.com/leviathanch/libresiliconprocess/blob/master/documentation.pdf" target="_blank">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-doclink.svg">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
 		    <p><u>Documentation</u></p>
 		    </a>
  		</div>
                 <div class="col-xs-4 text-center">
 		    <a href="https://github.com/leviathanch/libresiliconlightning/blob/master/talk.pdf" target="_blank">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-doclink.svg">
-		    <p><u>Lightning talk</u></p>
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
+		    <p><u>Lightning talk slides</u></p>
+		    </a>
+                </div>
+                <div class="col-xs-4 text-center">
+		    <a href="https://www.youtube.com/watch?v=67rh6jB2UVQ#t=29m51s" target="_blank">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-video.svg">
+		    <p><u>Lightning talk video</u></p>
 		    </a>
                 </div>
 	    </div>
