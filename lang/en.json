@@ -29,6 +29,7 @@
 , "debsUrlQtFlow": "https://download.opensuse.org/repositories/home:/leviathanch:/qtflow-debian"
 , "repoUrlStandardCells": "https://github.com/chipforge/StdCellLib"
 , "repoUrlProcessSpec": "https://github.com/leviathanch/libresiliconprocess"
+, "mailingListUrl": "https://list.o2s.ch/mailman/listinfo/libre-silicon-devel"
 , "newsTitle": "News"
 , "newsItems":
   [ { "title": "Lightning talk at 34c3"

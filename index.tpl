@@ -257,6 +257,12 @@
 			The GIT repository for the process spec is being maintained under:<br/>
 			<a href="{{repoUrlProcessSpec}}" target="_blank">{{repoUrlProcessSpec}}</a></br>
 		</p>
+
+		<h3>The LibreSilicon mailing list</h3>
+		<p>
+			The web interface for subscribing for the mailinglist can be found der:<br/>
+			<a href="{{mailingListUrl}}" target="_blank">{{mailingListUrl}}</a></br>
+		</p>
 	</div>
     </section>
 
