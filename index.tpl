@@ -269,13 +269,13 @@
             </div>
 	    <div class="row center">
                 <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconprocess/blob/master/documentation.pdf" target="_blank">
+		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_steps/process_steps.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
-		    <p><u>Documentation</u></p>
+		    <p><u>Process steps (Documentation)</u></p>
 		    </a>
  		</div>
                 <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconlightning/blob/master/talk.pdf" target="_blank">
+		    <a href="https://github.com/leviathanch/libresiliconlightning/raw/master/talk.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
 		    <p><u>Lightning talk slides</u></p>
 		    </a>
