@@ -33,8 +33,20 @@
 , "newsTitle": "News"
 , "newsItems":
   [ { "title": "Lightning talk at 34c3"
-    , "description": "12/16/2017: There will be a lightning talk about this project at Chaos Communication Congress 34c3."
+    , "description": [
+	    "12/16/2017: There will be a lightning talk about this project at Chaos Communication Congress 34c3."
+    	]
+    },
+    { "title": "Hackathon at the C3D2"
+    , "description": [
+	    "Free semiconductors for everyone",
+	    "from: 2018-05-19 Sat 12h",
+	    "until: 2018-05-21 Mon OpenEnd",
+	    "Zentralwerk Riesaer Str. 32, 01127 Dresden",
+	    "https://www.openstreetmap.org/node/4709923560"
+	 ]
     }
+
   ]
 , "lsaMembers": "LSA Members"
 , "lsaBackers": "LSA Backers"

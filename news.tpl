@@ -18,7 +18,9 @@
 			<title>{{ item.title }}</title>
 			<link>http://libresilicon.com/#news</link>
 			<description>
-{{ item.description }}
+				{% for line in item.description %}
+					{{ line }}<br/>
+				{% endfor %}
 			</description>
 		</item>
 		{% endfor %}

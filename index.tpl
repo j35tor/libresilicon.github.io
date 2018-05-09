@@ -181,7 +181,10 @@
             <div class="row" style="margin-top: 50px;">
                 <div class="col-lg-12 col-md-12 text-center">
 	 	    <h3 class="section-heading">{{ item.title }}</h3>
-                    <p>{{ item.description }}</p>
+                    <!--<p>{{ item.description }}</p>-->
+                    <p>{% for line in item.description %}
+			{{ line }}<br/>
+                    	{% endfor %}</p>
                 </div>
             </div>
             {% endfor %}
