@@ -242,10 +242,10 @@
 			The wiki page for the EDA can be found under the following URL:<br/>
 			<a href="{{wikiUrlQtFlow}}" target="_blank">{{wikiUrlQtFlow}}</a>
 		</p>
-		<p>
+		<!--<p>
 			Prebuilt RPMs for the EDA can be found under the following URL:<br/>
 			<a href="{{rpmsUrlQtFlow}}" target="_blank">{{rpmsUrlQtFlow}}</a></br>
-		</p>
+		</p>-->
 		<p>
 			Prebuilt Debian packages for the EDA can be found under the following URL:<br/>
 			<a href="{{debsUrlQtFlow}}" target="_blank">{{debsUrlQtFlow}}</a></br>
