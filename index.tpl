@@ -259,7 +259,7 @@
 
 		<h3>The LibreSilicon process</h3>
 		<p>
-			The GIT repository for the process spec is being maintained under:<br/>
+			The GIT repository for the process spec is being maintained under (format LaTeX):<br/>
 			<a href="{{repoUrlProcessSpec}}" target="_blank">{{repoUrlProcessSpec}}</a></br>
 		</p>
 
