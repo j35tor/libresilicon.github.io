@@ -323,6 +323,14 @@
                 </div>
 
 	    </div>
+	    <div class="row text-center">
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_testing/process_testing.pdf" target="_blank">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
+		    <p><u>Process testing details</u></p>
+		    </a>
+                </div>
+	    </div>
 	    <!--<div class="row text-center">
                 <div class="col-xs-4 text-center">
 		    <a href="" target="_blank">
