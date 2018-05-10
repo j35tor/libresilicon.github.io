@@ -13,6 +13,7 @@
 , "aboutButton": "The idea"
 , "homeButton": "Get more info"
 , "startButton": "Getting started"
+, "processButton": "The process"
 , "aboutTitle": "Opening the market"
 , "securityTitle": "Auditable chips solving security concerns"
 , "securityContent": "Since at least the introduction of the Intel management engine the concerns about the trustworthyness of our CPUs is raising. By providing a fully open process and technology node which allows to publish the entire layout on GitHub, the doors for entirely free CPU platforms are being pushed open which allow for a full security audit down to the transistor level. Which means no more possible hidden hardware backdoors for intelligence agencies."
@@ -53,5 +54,6 @@
 , "readWhitepaperHere": "Read our whitepaper here"
 , "viewPdf": "VIEW PDF"
 , "additionalDocs": "Additional documents"
+, "theProcess": "The process"
 , "contactUs": "Contact us"
 }

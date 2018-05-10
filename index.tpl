@@ -119,7 +119,6 @@
                 <h2 id="homeSubtitle">{{homeSubtitle}}</h2>
                 <p>{{homeContent}}</p>
 		<br/>
-		<br/>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">{{aboutButton}}</a>
 		<br/>
 		<br/>
@@ -127,6 +126,9 @@
 		<br/>
 		<br/>
                 <a href="#getstarted" class="btn btn-primary btn-xl page-scroll">{{startButton}}</a>
+		<br/>
+		<br/>
+                <a href="#theprocess" class="btn btn-primary btn-xl page-scroll">{{processButton}}</a>
             </div>
         </div>
     </header>
@@ -278,12 +280,6 @@
             </div>
 	    <div class="row center">
                 <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_steps/process_steps.pdf" target="_blank">
-		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
-		    <p><u>Process steps (Documentation)</u></p>
-		    </a>
- 		</div>
-                <div class="col-xs-4 text-center">
 		    <a href="https://github.com/leviathanch/libresiliconlightning/raw/master/talk.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
 		    <p><u>Lightning talk slides</u></p>
@@ -296,6 +292,45 @@
 		    </a>
                 </div>
 	    </div>
+        </div>
+    </section>
+
+    <section id="theprocess">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+	 	    <h2 class="section-heading">{{theProcess}}</h2>
+                </div>
+            </div>
+	    <div class="row text-center">
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_steps/process_steps.pdf" target="_blank">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
+		    <p><u>Process steps</u></p>
+		    </a>
+ 		</div>
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_design/process_design.pdf" target="_blank">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
+		    <p><u>Process design</u></p>
+		    </a>
+                </div>
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_design_rules/process_design_rules.pdf" target="_blank">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
+		    <p><u>Design rules</u></p>
+		    </a>
+                </div>
+
+	    </div>
+	    <!--<div class="row text-center">
+                <div class="col-xs-4 text-center">
+		    <a href="" target="_blank">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
+		    <p><u></u></p>
+		    </a>
+                </div>
+	    </div>-->
         </div>
     </section>
 
