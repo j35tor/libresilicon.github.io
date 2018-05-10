@@ -306,7 +306,7 @@
                 <div class="col-xs-4 text-center">
 		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_steps/process_steps.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
-		    <p><u>Process steps</u></p>
+		    <p><u>General process steps</u></p>
 		    </a>
  		</div>
                 <div class="col-xs-4 text-center">
