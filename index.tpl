@@ -118,16 +118,9 @@
                 <h1 id="homeHeading">{{homeHeading}}</h1>
                 <h2 id="homeSubtitle">{{homeSubtitle}}</h2>
                 <p>{{homeContent}}</p>
-		<br/>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">{{aboutButton}}</a>
-		<br/>
-		<br/>
                 <a href="#whitepaper" class="btn btn-primary btn-xl page-scroll">{{homeButton}}</a>
-		<br/>
-		<br/>
                 <a href="#getstarted" class="btn btn-primary btn-xl page-scroll">{{startButton}}</a>
-		<br/>
-		<br/>
                 <a href="#theprocess" class="btn btn-primary btn-xl page-scroll">{{processButton}}</a>
             </div>
         </div>
