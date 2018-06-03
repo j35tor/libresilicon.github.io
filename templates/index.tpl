@@ -292,35 +292,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-	 	    <h2 class="section-heading">{{theProcess}}</h2>
+	 	    <h2 class="section-heading">The process</h2>
                 </div>
             </div>
 	    <div class="row text-center">
                 <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_steps/process_steps.pdf" target="_blank">
+		    <a href="https://github.com/libresilicon/process/raw/master/process_steps/process_steps.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
 		    <p><u>General process steps</u></p>
 		    </a>
  		</div>
                 <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_design/process_design.pdf" target="_blank">
+		    <a href="https://github.com/libresilicon/process/raw/master/process_design/process_design.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
 		    <p><u>Process design</u></p>
 		    </a>
                 </div>
                 <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_design_rules/process_design_rules.pdf" target="_blank">
+		    <a href="https://github.com/libresilicon/process/raw/master/process_design_rules/process_design_rules.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
 		    <p><u>Design rules</u></p>
 		    </a>
                 </div>
-
 	    </div>
 	    <div class="row text-center">
                 <div class="col-xs-4 text-center">
-		    <a href="https://github.com/leviathanch/libresiliconprocess/raw/master/process_testing/process_testing.pdf" target="_blank">
+		    <a href="https://github.com/libresilicon/process/raw/master/process_testing/process_testing.pdf" target="_blank">
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
-		    <p><u>Process testing details</u></p>
+		    <p><u>Process testing guide</u></p>
+		    </a>
+                </div>
+                <div class="col-xs-4 text-center">
+		    <a href="https://github.com/libresilicon/process/raw/master/process_implementations/hkust/process_hkust.pdf" target="_blank">
+		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
+		    <p><u>HKUST implementation</u></p>
 		    </a>
                 </div>
 	    </div>
@@ -330,8 +335,7 @@
 		    <img width="120px" style="margin-top: 20px;" src="img/LSA-pdf.svg">
 		    <p><u></u></p>
 		    </a>
-                </div>
-	    </div>-->
+                </div>-->
         </div>
     </section>
 
