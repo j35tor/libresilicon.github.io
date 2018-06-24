@@ -1,4 +1,4 @@
-{ "lang": "ja"
+{ "lang": "en"
 , "title": "LSA - Libre Silicon Alliance"
 , "menu": "Menu"
 , "language": "Language"
@@ -8,26 +8,52 @@
 , "whitepaper": "Whitepaper"
 , "contact": "Contact"
 , "homeHeading": "Libre Silicon Alliance"
-, "homeSubtitle": "Blockchain based collaborative chip exchange"
-, "homeContent": "The initiative has the goal to establish a full development flow for new semiconductor products using only free and open source tools, while at the same time answering the question about IP protection and payment of developers making use of a blockchain solution automatically making sure every engineer is payed for the value she or he generates."
-, "homeButton": "READ OUR WHITEPAPER"
-, "aboutTitle": "Why and about LSA"
+, "homeSubtitle": "Free semiconductors for everyone"
+, "homeContent": "We develop a free and open source semiconductor manufacturing process standard and provide a quick, easy and inexpensive way for manufacturing. No NDAs will be required anywhere to get started, making it possible to build the designs in your basement if you wish so. We are aiming to revolutionize the market by breaking through the monopoly of proprietary closed source manufacturers!"
+, "aboutButton": "The idea"
+, "homeButton": "Get more info"
+, "startButton": "Getting started"
+, "processButton": "The process"
+, "aboutTitle": "Opening the market"
+, "securityTitle": "Auditable chips solving security concerns"
+, "securityContent": "Since at least the introduction of the Intel management engine the concerns about the trustworthyness of our CPUs is raising. By providing a fully open process and technology node which allows to publish the entire layout on GitHub, the doors for entirely free CPU platforms are being pushed open which allow for a full security audit down to the transistor level. Which means no more possible hidden hardware backdoors for intelligence agencies."
+, "processTitle": "A free process"
+, "processContent": "In order to democratize the semiconductor market and stop being at the mercy of big proprietary semiconductor manufacturers a standardized free manufacturing process needs to be introduced in order to easily exchange designs and silicon verify them anywhere on the globe. That's what we're doing."
 , "aboutContent": "Today there is no inexpensive and easy way for SMEs, startups and hobbyists to develop their own ASICs and bringing them to the market. All the silicon manufacturing nowadays is in the hands of a few big companies which play their monopoly of lone capability of manufacturing microchips by charging around 20'000 USD per prototype and letting an engineer wait for months until he can test his design physically. Additionally the EDA tools for designing chips are unaffordable for most start ups.\nWe intend to change that!"
 , "collaborationTitle": "A collaboration platform"
-, "collaborationContent": "By using a blockchain solution in order to track the added value from the work of every contributor, without any human intervention required, it is ensured that everyone is being payed a fair price for the work and time she or he has invested into developing an ASIC or IP block."
+, "collaborationContent": "By using a blockchain solution in order to track the added value from the work of every contributor, without any human intervention required, it is ensured that everyone is being payed a fair price for the work and time she or he has invested into developing an ASIC or IP block. Manufacturing potential can be reported on a market place where customers can put up orders. The result will be something like a crypto exchange just without speculation, a way for people who want to buy chips and people with a basement containing a clean room to find each other. This becomes possible with our free semiconductor manufacturing process standard which allow reproducible results with varying setups."
+, "reproducibilityTitle": "Global reproduciblity"
+, "reproducibilityContent": "We aim to specify the target parameters of test structures we provide, required for supporting the LibreSilicon technology. If met, it becomes possible to test any ASIC (CMOS *and* analog!) somewhere in Tokyo and then download the design from GitHub and manufacture it somewhere in Texas."
+, "gitUrlQtFlow": "https://github.com/libresilicon/qtflow"
+, "wikiUrlQtFlow": "https://murmur.lanceville.hk/foshardware/wiki/QtFlow"
+, "rpmsUrlQtFlow": "https://download.opensuse.org/repositories/home:/leviathanch:/qtflow-debian"
+, "debsUrlQtFlow": "https://download.opensuse.org/repositories/home:/leviathanch:/qtflow-debian"
+, "repoUrlStandardCells": "https://github.com/chipforge/StdCellLib"
+, "repoUrlProcessSpec": "https://github.com/libresilicon/process"
+, "mailingListUrl": "https://list.o2s.ch/mailman/listinfo/libre-silicon-devel"
 , "newsTitle": "News"
 , "newsItems":
-  [ { "title": "Pre-ICO postponed two weeks"
-    , "description": "01/01/2017: We will have to postpone the pre-ICO for two weeks until we meet some more prerequisites. We will use this time to perfect our whitepaper and homepage."
+  [ { "title": "Lightning talk at 34c3"
+    , "description": [
+	    "12/16/2017: There will be a lightning talk about this project at Chaos Communication Congress 34c3."
+    	]
+    },
+    { "title": "Hackathon at the C3D2"
+    , "description": [
+	    "Free semiconductors for everyone",
+	    "from: 2018-05-19 Sat 12h",
+	    "until: 2018-05-21 Mon OpenEnd",
+	    "Zentralwerk Riesaer Str. 32, 01127 Dresden",
+	    "https://www.openstreetmap.org/node/4709923560"
+	 ]
     }
-  , { "title": "Pre-ICO update"
-    , "description": "09/21/2017: Pre-ICO will take place this month!"
-    }
+
   ]
 , "lsaMembers": "LSA Members"
 , "lsaBackers": "LSA Backers"
 , "readWhitepaperHere": "Read our whitepaper here"
 , "viewPdf": "VIEW PDF"
 , "additionalDocs": "Additional documents"
+, "theProcess": "The process"
 , "contactUs": "Contact us"
 }

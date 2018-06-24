@@ -261,6 +261,12 @@
 			The web interface for subscribing for the mailinglist can be found der:<br/>
 			<a href="{{mailingListUrl}}" target="_blank">{{mailingListUrl}}</a></br>
 		</p>
+
+		<h3>Phone conference</h3>
+		<p>
+			There is a weekly mumble conference on Sunday at 9pm HKT on the Mumble server: murmur.lanceville.hk<br/>
+		</p>
+
 	</div>
     </section>
 
