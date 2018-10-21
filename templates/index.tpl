@@ -264,7 +264,7 @@
 
 		<h3>Phone conference</h3>
 		<p>
-			There is a weekly mumble conference on Sunday at 9pm HKT on the Mumble server: murmur.lanceville.hk<br/>
+			There is a weekly mumble conference on Sunday at 9pm HKT on the Mumble server: murmur.libresilicon.com<br/>
 		</p>
 
 	</div>
@@ -386,7 +386,7 @@
 		    <div class="col-lg-3 col-md-3 text-center">
                         	<i class="fa fa-4x fa-microphone text-primary"></i>
 				<p>
-				<br />mumble: murmur.lanceville.hk
+				<br />mumble: murmur.libresilicon.com
 				<br />#IC
 				</p>
 		    </div>
@@ -402,7 +402,7 @@
                 - <i class="fa fa-github text-primary"></i>
 		  <a href="https://github.com/leviathanch">leviathanch</a>
                 - <i class="fa fa-book text-primary"></i>
-		  <a href="https://murmur.lanceville.hk/foshardware">wiki</a>
+		  <a href="https://murmur.libresilicon.com/foshardware">wiki</a>
                 - <i class="fa fa-home text-primary"></i>
 		  <a href="http://pconas.de">pconas</a>
 		</p>
@@ -423,7 +423,7 @@
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
-    <script src="https://murmur.lanceville.hk/meter.js"></script>
+    <script src="https://murmur.libresilicon.com/meter.js"></script>
 
 </body>
 

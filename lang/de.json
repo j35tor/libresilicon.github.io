@@ -25,7 +25,7 @@
 , "reproducibilityTitle": "Global reproduciblity"
 , "reproducibilityContent": "We aim to specify the target parameters of test structures we provide, required for supporting the LibreSilicon technology. If met, it becomes possible to test any ASIC (CMOS *and* analog!) somewhere in Tokyo and then download the design from GitHub and manufacture it somewhere in Texas."
 , "gitUrlQtFlow": "https://github.com/libresilicon/qtflow"
-, "wikiUrlQtFlow": "https://murmur.lanceville.hk/foshardware/wiki/QtFlow"
+, "wikiUrlQtFlow": "https://murmur.libresilicon.com/foshardware/wiki/QtFlow"
 , "rpmsUrlQtFlow": "https://download.opensuse.org/repositories/home:/leviathanch:/qtflow-debian"
 , "debsUrlQtFlow": "https://download.opensuse.org/repositories/home:/leviathanch:/qtflow-debian"
 , "repoUrlStandardCells": "https://github.com/chipforge/StdCellLib"
