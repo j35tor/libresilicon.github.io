@@ -33,7 +33,12 @@
 , "mailingListUrl": "https://list.o2s.ch/mailman/listinfo/libre-silicon-devel"
 , "newsTitle": "News"
 , "newsItems":
-  [ { "title": "Lightning talk at 34c3"
+  [ { "title": "Congress talk at the 35C3"
+    , "description": [
+	    "11/14/2018: There will be a 1.5 hour talk about this project at Chaos Communication Congress 35c3."
+    	]
+    },
+    { "title": "Lightning talk at 34c3"
     , "description": [
 	    "12/16/2017: There will be a lightning talk about this project at Chaos Communication Congress 34c3."
     	]
