@@ -1,29 +1,29 @@
 { "lang": "en"
 , "title": "LSA - Libre Silicon Alliance"
-, "menu": "Menu"
-, "language": "Language"
-, "about": "About"
-, "news": "News"
-, "members": "Members"
-, "whitepaper": "Whitepaper"
-, "contact": "Contact"
+, "menu": "选单"
+, "language": "語言"
+, "about": "关于"
+, "news": "消息"
+, "members": "会员"
+, "whitepaper": "白皮书"
+, "contact": "详情联系"
 , "homeHeading": "Libre Silicon Alliance"
-, "homeSubtitle": "Free semiconductors for everyone"
-, "homeContent": "We develop a free and open source semiconductor manufacturing process standard and provide a quick, easy and inexpensive way for manufacturing. No NDAs will be required anywhere to get started, making it possible to build the designs in your basement if you wish so. We are aiming to revolutionize the market by breaking through the monopoly of proprietary closed source manufacturers!"
-, "aboutButton": "The idea"
-, "homeButton": "Get more info"
-, "startButton": "Getting started"
-, "processButton": "The process"
-, "aboutTitle": "Opening the market"
-, "securityTitle": "Auditable chips solving security concerns"
-, "securityContent": "Since at least the introduction of the Intel management engine the concerns about the trustworthyness of our CPUs is raising. By providing a fully open process and technology node which allows to publish the entire layout on GitHub, the doors for entirely free CPU platforms are being pushed open which allow for a full security audit down to the transistor level. Which means no more possible hidden hardware backdoors for intelligence agencies."
-, "processTitle": "A free process"
-, "processContent": "In order to democratize the semiconductor market and stop being at the mercy of big proprietary semiconductor manufacturers a standardized free manufacturing process needs to be introduced in order to easily exchange designs and silicon verify them anywhere on the globe. That's what we're doing."
-, "aboutContent": "Today there is no inexpensive and easy way for SMEs, startups and hobbyists to develop their own ASICs and bringing them to the market. All the silicon manufacturing nowadays is in the hands of a few big companies which play their monopoly of lone capability of manufacturing microchips by charging around 20'000 USD per prototype and letting an engineer wait for months until she/he can test her/his design physically. Additionally the EDA tools for designing chips are unaffordable for most start ups.\nWe intend to change that!"
-, "collaborationTitle": "A collaboration platform"
-, "collaborationContent": "By using a blockchain solution in order to track the added value from the work of every contributor, without any human intervention required, it is ensured that everyone is being payed a fair price for the work and time she or he has invested into developing an ASIC or IP block. Manufacturing potential can be reported on a market place where customers can put up orders. The result will be something like a crypto exchange just without speculation, a way for people who want to buy chips and people with a basement containing a clean room to find each other. This becomes possible with our free semiconductor manufacturing process standard which allow reproducible results with varying setups."
-, "reproducibilityTitle": "Global reproduciblity"
-, "reproducibilityContent": "We aim to specify the target parameters of test structures we provide, required for supporting the LibreSilicon technology. If met, it becomes possible to test any ASIC (CMOS *and* analog!) somewhere in Tokyo and then download the design from GitHub and manufacture it anywhere else in the world."
+, "homeSubtitle": "给众人的开源半导体"
+, "homeContent": "我们正开发一种自由便用及开源的半导体制作工艺标准, 目的是提供一种快捷, 容易使用, 及价格相宜的制程. 開始制定流程時, 無需遵守特殊的保密協議 NDA, 即使在個人設施條件下, 仍可按設計製作. 我們的目標是打斷现时非开源厂商垄断!"
+, "aboutButton": "背后理念"
+, "homeButton": "更多资料"
+, "startButton": "起步点"
+, "processButton": "工艺流程"
+, "aboutTitle": "把市场开放"
+, "securityTitle": "可核查芯片, 解决对保安的担忧"
+, "securityContent": "由于现时不少人对个别厂家的中央处理器中管理引擎的担忧,  通过使用公开的制程及技术, 晶片的图则可以在 GitHub 上面公开. 而公开的中央处理器平台亦随之然发展, 其公开的程度可推至 晶体管 层面. 从此再不可以隐藏 非相关的功能."
+, "processTitle": "开源的工艺"
+, "processContent": "为了使半导体市场更自由化及避免被大厂商垄断, 需要推行一种标准化公开的制作工艺, 来方便设计图则的交流及检查. 这是现时我们努力的方向."
+, "aboutContent": "现时并没有价格相宜及简易的方式 来让中小企业,初创公司以及个人开发 '特殊应用积体电路' (ASIC) 并推出公开市场.差不多全部的制程都是由大型半导体厂商拥有,而开发产品原型晶片需用上两万美元以上,及多月的等候才可实际测试晶片. 另一方面, 所使用的发开EDA 软件亦需要额外支付一般初创企业负担不起的高昂费用, 我们希望带来改变.!"
+, "collaborationTitle": "一个协作的平台"
+, "collaborationContent": "透過使用区块链技術, 可不經手來自然追踪各自有貢獻的使用者, 並確保每個人可穫得其開發 ASIC 以及 IP Block 知識產櫂区块 所付出的資源.   產品買家亦可收到訂單後在公開市場 向賣家訂貨,  所產生的效果是供求相方透過市場公開配對."
+, "reproducibilityTitle": "不同地域皆可进行的可重覆性"
+, "reproducibilityContent": "我们在工艺上指定相应的设计参数, 必须同时支援数码及模拟电路. 所产生的效果: 即使在某地方设计的ASIC (同时包括CMOS及模拟电路), 亦可在地球另一端在GitHub 下载有关的设计并进行生产."
 , "gitUrlQtFlow": "https://github.com/libresilicon/qtflow"
 , "wikiUrlQtFlow": "https://murmur.libresilicon.com/foshardware/wiki/QtFlow"
 , "rpmsUrlQtFlow": "https://download.opensuse.org/repositories/home:/leviathanch:/qtflow-debian"
@@ -31,29 +31,29 @@
 , "repoUrlStandardCells": "https://github.com/chipforge/StdCellLib"
 , "repoUrlProcessSpec": "https://github.com/libresilicon/process"
 , "mailingListUrl": "https://list.o2s.ch/mailman/listinfo/libre-silicon-devel"
-, "newsTitle": "News"
+, "newsTitle": "相关新闻"
 , "newsItems":
-  [ { "title": "Lightning talk at 34c3"
+  [ { "title": "在34c3 的起源点"
     , "description": [
-	    "12/16/2017: There will be a lightning talk about this project at Chaos Communication Congress 34c3."
+	    "12/16/2017: 我们在 Chaos Communication Congress 34c3 的起源点"
     	]
     },
-    { "title": "Hackathon at the C3D2"
+    { "title": "在 C3D2 黑客松"
     , "description": [
-	    "Free semiconductors for everyone",
-	    "from: 2018-05-19 Sat 12h",
-	    "until: 2018-05-21 Mon OpenEnd",
+	    "给众人的开源半导体",
+	    "开始时间: 2018-05-19 星期六 12h",
+	    "结束时间: 2018-05-21 星期一",
 	    "Zentralwerk Riesaer Str. 32, 01127 Dresden",
 	    "https://www.openstreetmap.org/node/4709923560"
 	 ]
     }
 
   ]
-, "lsaMembers": "LSA Members"
-, "lsaBackers": "LSA Backers"
-, "readWhitepaperHere": "Read our whitepaper here"
-, "viewPdf": "VIEW PDF"
-, "additionalDocs": "Additional documents"
-, "theProcess": "The process"
-, "contactUs": "Contact us"
+, "lsaMembers": "LSA 会员"
+, "lsaBackers": "LSA 支持者"
+, "readWhitepaperHere": "从这里找白皮书"
+, "viewPdf": "查看 PDF"
+, "additionalDocs": "更多文件"
+, "theProcess": "工艺流程"
+, "contactUs": "联系我们"
 }
