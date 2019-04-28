@@ -231,10 +231,10 @@
 			The GIT repository for the EDA can be found under the following URL:<br/>
 			<a href="{{gitUrlQtFlow}}" target="_blank">{{gitUrlQtFlow}}</a>
 		</p>
-		<p>
+		<!--<p>
 			The wiki page for the EDA can be found under the following URL:<br/>
 			<a href="{{wikiUrlQtFlow}}" target="_blank">{{wikiUrlQtFlow}}</a>
-		</p>
+		</p>-->
 		<!--<p>
 			Prebuilt RPMs for the EDA can be found under the following URL:<br/>
 			<a href="{{rpmsUrlQtFlow}}" target="_blank">{{rpmsUrlQtFlow}}</a></br>
