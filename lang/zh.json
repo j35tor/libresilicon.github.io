@@ -30,7 +30,7 @@
 , "debsUrlQtFlow": "https://download.opensuse.org/repositories/home:/leviathanch:/qtflow-debian"
 , "repoUrlStandardCells": "https://github.com/chipforge/StdCellLib"
 , "repoUrlProcessSpec": "https://github.com/libresilicon/process"
-, "mailingListUrl": "https://list.o2s.ch/mailman/listinfo/libre-silicon-devel"
+, "mailingListUrl": "https://list.libresilicon.com/mailman/listinfo/libre-silicon-devel"
 , "newsTitle": "相关新闻"
 , "newsItems":
   [ { "title": "在34c3 的起源点"
