@@ -1,9 +1,10 @@
-#!/usr/bin/python
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import os
 from jinja2 import Environment, FileSystemLoader
 import json
+import codecs
 
 PATH = os.path.dirname(os.path.abspath(__file__))
 
@@ -17,7 +18,9 @@ TEMPLATE_ENVIRONMENT = Environment(
 )
 
 def render_template(template_filename, language):
-	return TEMPLATE_ENVIRONMENT.get_template(template_filename).render(json.loads(open("lang/"+language+".json").read()))
+	print("Language: "+language)
+	json_content = json.load(fp=open("lang/"+language+".json"),encoding="utf-8")
+	return TEMPLATE_ENVIRONMENT.get_template(template_filename).render(json_content)
 
 def create_index_html():
 	for lang in languages:
@@ -29,7 +32,7 @@ def create_index_html():
 			lang='en'
 		fname+=".html"
 		# rendering
-		with open(fname, 'w') as f:
+		with codecs.open(fname, 'w', "utf-8-sig") as f:
 			html = render_template('index.tpl',lang)
 			f.write(html)
 
@@ -43,7 +46,7 @@ def create_news_html():
 			lang='en'
 		fname+=".rss"
 		# rendering
-		with open(fname, 'w') as f:
+		with codecs.open(fname, 'w', "utf-8-sig") as f:
 			html = render_template('news.tpl',lang)
 			f.write(html)
 

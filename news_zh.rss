@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="0.91">
 	<channel>
  		<title>Libre Silicon Alliance</title>
@@ -15,24 +15,24 @@
  		</image>
 
 		<item>
-			<title>Lightning talk at 34c3</title>
+			<title>在34c3 的起源点</title>
 			<link>http://libresilicon.com/#news</link>
 			<description>
 				
-					12/16/2017: There will be a lightning talk about this project at Chaos Communication Congress 34c3.<br/>
+					12/16/2017: 我们在 Chaos Communication Congress 34c3 的起源点<br/>
 				
 			</description>
 		</item>
 		<item>
-			<title>Hackathon at the C3D2</title>
+			<title>在 C3D2 黑客松</title>
 			<link>http://libresilicon.com/#news</link>
 			<description>
 				
-					Free semiconductors for everyone<br/>
+					给众人的开源半导体<br/>
 				
-					from: 2018-05-19 Sat 12h<br/>
+					开始时间: 2018-05-19 星期六 12h<br/>
 				
-					until: 2018-05-21 Mon OpenEnd<br/>
+					结束时间: 2018-05-21 星期一<br/>
 				
 					Zentralwerk Riesaer Str. 32, 01127 Dresden<br/>
 				
